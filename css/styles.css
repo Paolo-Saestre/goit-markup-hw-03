@@ -1,0 +1,215 @@
+:root {
+  --primaryfont: "Roboto", sans-serif;
+  --primarycolor: #2e2f42;
+  --whitecolor: #ffffff;
+  --secondarycolor: #4d5ae5;
+}
+body {
+  font-family: var(--primaryfont);
+  color: #434455;
+  background-color: var(--whitecolor);
+}
+ul,
+ol,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.nav .web-logo {
+  color: var(--iris, #4d5ae5);
+  font-family: "Raleway" sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.studio-logo {
+  color: var(--navyblue, #2e2f42);
+  font-family: "Raleway" sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.nav .list .link {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  list-style: none;
+  text-transform: none;
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav .list .link:hover,
+.nav .list .link:focus,
+.nav .list .link:active {
+  color: #404bbf;
+}
+.adress {
+  font-style: normal;
+}
+.adress .link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+.adress .list .link:hover,
+.adress .list .link:focus,
+.adress .list .link:active {
+  color: #404bbf;
+}
+.front-page {
+  background-color: var(--primarycolor);
+}
+.header-main {
+  color: var(--whitecolor);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.button {
+  background-color: var(--secondarycolor);
+  color: var(--whitecolor);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+.card-title {
+  color: var(--primarycolor);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.card-description {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-2 {
+  color: var(--primarycolor);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.background-team {
+  background-color: #f4f4fd;
+}
+.name {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.description {
+  color: var(--slate, #434455);
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.list-image {
+  background-color: #ffffff;
+}
+.footer-background {
+  background-color: var(--primarycolor);
+}
+.web-logo-footer {
+  color: var(--iris, #4d5ae5);
+  font-family: "Raleway" sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.studio-logo-footer {
+  color: var(--cloud, #f4f4fd);
+  font-family: "Raleway" sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.button-list {
+  background-color: #f4f4fd;
+  color: var(--secondarycolor);
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  font-family: "Roboto" sans-serif;
+}
+.button-list:hover,
+.button-list:focus,
+.button-list:active {
+  background-color: #404bbf;
+  color: var(--whitecolor);
+}
+.list .link {
+  text-decoration: none;
+  color: inherit;
+}
+.card-title-portfolio {
+  color: var(--navyblue, #2e2f42);
+  font-family: "Roboto" sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.nav-contact {
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.nav-contact:hover {
+  background-color: #404bbf;
+  color: var(--whitecolor);
+}
