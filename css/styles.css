@@ -248,6 +248,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  margin-bottom: 2520px;
 }
 .web-logo {
   width: 44px;
@@ -258,7 +259,7 @@ header {
   margin: 25, 5px 1169px 25, 5px 200px;
 }
 .cointainer {
-  width: 1158px;
+  width: 1440px;
 }
 .header-main {
   width: 496px;
