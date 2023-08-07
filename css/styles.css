@@ -241,9 +241,59 @@ a {
   align-items: flex-start;
   gap: 40px;
 }
+header {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
 .web-logo {
+  width: 44px;
   margin: 25, 5px 1240px 25, 5px 156px;
 }
 .studio-logo {
+  width: 71px;
   margin: 25, 5px 1169px 25, 5px 200px;
+}
+.cointainer {
+  width: 1158px;
+}
+.header-main {
+  width: 496px;
+  padding: 188px 472px 292px 472px;
+  text-align: center;
+}
+.button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin: 356px 635px 188px 636px;
+}
+.features {
+  width: 1128px;
+  height: 104px;
+  flex-shrink: 0;
+  margin: 792px 156px 1696px;
+}
+.card-title {
+  display: inline;
+  width: 264px;
+}
+.header {
+  width: 1440px;
+  height: 72px;
+  flex-shrink: 0;
+}
+.front-page {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+}
+.footer-background {
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
 }
