@@ -259,7 +259,7 @@ header {
   margin: 25, 5px 1169px 25, 5px 200px;
 }
 .cointainer {
-  width: 1440px;
+  width: 1158px;
 }
 .header-main {
   width: 496px;
@@ -284,8 +284,11 @@ header {
   width: 264px;
 }
 .header {
-  width: 1440px;
-  height: 72px;
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
   flex-shrink: 0;
 }
 .front-page {
@@ -297,4 +300,33 @@ header {
   width: 1440px;
   height: 312px;
   flex-shrink: 0;
+}
+.card-title {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 24px;
+}
+.img {
+  padding: 24px;
+}
+.card-image {
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-top: 232px;
+  margin-bottom: 120px;
+  margin-left: 156px;
+  padding-right: 24px;
+}
+.header-2 {
+  justify-content: center;
+}
+.footer-text {
+  width: 264px;
 }
