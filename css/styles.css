@@ -230,12 +230,7 @@ a {
   background-color: #404bbf;
   color: var(--whitecolor);
 }
-.nav {
-  display: inline-flex;
-  height: 24px;
-  align-items: center;
-  flex-shrink: 0;
-}
+
 .list {
   display: inline-flex;
   align-items: flex-start;
@@ -248,18 +243,33 @@ header {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  margin-bottom: 2520px;
 }
 .web-logo {
   width: 44px;
-  margin: 25, 5px 1240px 25, 5px 156px;
+  padding-top: 25, 5px;
+  padding-bottom: 25, 5px;
+  padding-left: 156px;
+  padding-right: 1240px;
 }
 .studio-logo {
   width: 71px;
-  margin: 25, 5px 1169px 25, 5px 200px;
+  padding-top: 25, 5px;
+  padding-bottom: 25, 5px;
+  padding-right: 76px;
+}
+.nav {
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 24px 40px;
+  margin-top: 24px;
+  margin-left: 76px;
 }
 .cointainer {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .header-main {
   width: 496px;
