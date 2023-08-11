@@ -243,7 +243,7 @@ a {
 }
 header {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   height: 72px;
   justify-content: center;
   align-items: center;
@@ -264,8 +264,8 @@ header {
   justify-content: flex-start;
   align-items: baseline;
   width: 71px;
-  padding-top: 25, 5px;
-  padding-bottom: 25, 5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   padding-right: 76px;
 }
 .nav {
@@ -273,17 +273,18 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
+  width: 1440px;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
   padding-left: 76px;
-  padding-right: 876px;
 }
 .nav-contact {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
+  padding-right: 156px;
 }
 
 .header-main {
@@ -327,7 +328,7 @@ header {
   flex-shrink: 0;
 }
 .footer-background {
-  width: 1440px;
+  width: auto;
   height: 312px;
   flex-shrink: 0;
 }
@@ -349,14 +350,21 @@ header {
   justify-content: center;
   align-items: center;
   gap: 32px;
-  margin-top: 232px;
+  margin-top: 72px;
   margin-bottom: 120px;
-  margin-left: 156px;
   padding-right: 24px;
 }
 .header-2 {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 120px;
 }
 .footer-text {
   width: 264px;
+  margin-left: 156px;
+  display: flex;
+  height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
