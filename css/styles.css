@@ -251,13 +251,11 @@ header {
 }
 .web-logo {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: baseline;
   width: 44px;
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-left: 156px;
-  padding-right: 1240px;
 }
 .studio-logo {
   display: flex;
@@ -266,25 +264,29 @@ header {
   width: 71px;
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-right: 76px;
+  margin-right: 76px;
 }
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
-  width: 1440px;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
   padding-left: 76px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
 }
 .nav-contact {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
-  padding-right: 156px;
 }
 
 .header-main {
@@ -296,23 +298,27 @@ header {
   align-items: center;
   margin-left: 472px;
   margin-right: 472px;
+  padding-top: 188px;
 }
 .button {
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin: 356px 635px 188px 636px;
+  margin: 48px 635px 188px 636px;
 }
 .features {
   width: 1128px;
   height: 104px;
   flex-shrink: 0;
-  margin: 792px 156px 1696px;
+  margin: 120px 156px;
 }
 .card-title {
-  display: inline;
+  display: flex;
   width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
 .header {
   display: flex;
@@ -339,6 +345,20 @@ header {
   align-items: flex-start;
   gap: 8px;
   padding: 24px;
+  margin: auto;
+}
+.header-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+.items {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
 }
 .img {
   padding: 24px;
@@ -354,12 +374,7 @@ header {
   margin-bottom: 120px;
   padding-right: 24px;
 }
-.header-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 120px;
-}
+
 .footer-text {
   width: 264px;
   margin-left: 156px;
