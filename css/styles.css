@@ -396,10 +396,23 @@ header {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.titles {
+
+.main-header-portfolio {
+  display: none;
+}
+.list-portfolio {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 96px 427px 72px;
+}
+.h2a {
+  display: none;
+}
+.cards-portfolio {
   display: flex;
   width: 360px;
-  height: auto;
+  height: 420px;
   padding-bottom: 0px;
   flex-direction: column;
   align-items: flex-start;
