@@ -409,6 +409,17 @@ header {
 .h2a {
   display: none;
 }
+
+ul.titles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 156px;
+  margin-right: 156px;
+  justify-content: space-between;
+  padding: 24px;
+  align-content: space-between;
+}
 .cards-portfolio {
   display: flex;
   width: 360px;
@@ -418,7 +429,12 @@ header {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 32px;
+  flex-basis: ((100% - 24px)/3);
   flex-shrink: 0;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
+}
+.figure-portfolio {
+  justify-content: center;
+  align-items: flex-start;
 }
