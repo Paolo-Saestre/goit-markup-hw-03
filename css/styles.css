@@ -30,35 +30,38 @@ a {
   list-style-type: none;
   text-decoration: none;
 }
+header {
+  display: flex;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-header {
-  /*  Making header.page-header a Flex-container and aligning elements  */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
-  border-radius: 4px;
 }
 .nav .web-logo {
   color: var(--iris, #4d5ae5);
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.5;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  width: 115px;
 }
 .studio-logo {
   color: var(--navyblue, #2e2f42);
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.5;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  width: 71px;
 }
 .nav .list .link {
   font-family: inherit;
@@ -143,7 +146,7 @@ a {
 .name {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -153,7 +156,7 @@ a {
 .description {
   color: var(--slate, #434455);
   text-align: center;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -168,17 +171,18 @@ a {
 }
 .web-logo-footer {
   color: var(--iris, #4d5ae5);
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-left: 156px;
 }
 .studio-logo-footer {
   color: var(--cloud, #f4f4fd);
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -188,7 +192,7 @@ a {
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -235,35 +239,23 @@ a {
   letter-spacing: 0.32px;
 }
 .nav-contact:hover {
-  background-color: #404bbf;
-  color: var(--whitecolor);
+  color: #404bbf;
 }
 
 .list {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
   gap: 40px;
+  margin-left: 156px;
 }
-.cointainer {
-  width: 1440px;
+.container {
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-header {
-  display: flex;
-  max-width: 1440px;
-  height: 72px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}
+
 .web-logo {
   display: flex;
-  justify-content: flex-end;
   align-items: baseline;
-  width: 44px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .studio-logo {
   display: flex;
@@ -277,12 +269,6 @@ header {
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  height: 24px;
-  align-items: center;
-  flex-shrink: 0;
-  margin-left: 156px;
 }
 .cards {
   display: flex;
