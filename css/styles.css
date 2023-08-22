@@ -4,6 +4,12 @@
   --whitecolor: #ffffff;
   --secondarycolor: #4d5ae5;
 }
+html {
+  overflow: auto;
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: auto;
+}
 h1,
 h2,
 h3,
@@ -93,6 +99,12 @@ header {
 .adress .list .link:active {
   color: #404bbf;
 }
+.link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
 .front-page {
   background-color: var(--primarycolor);
 }
@@ -140,6 +152,12 @@ header {
   text-align: center;
   text-transform: capitalize;
 }
+.middle-section-images {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 120px;
+}
 .background-team {
   background-color: #f4f4fd;
 }
@@ -178,7 +196,6 @@ header {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-left: 156px;
 }
 .studio-logo-footer {
   color: var(--cloud, #f4f4fd);
@@ -298,6 +315,8 @@ header {
 .button {
   display: inline-flex;
   padding: 16px 32px;
+  gap: 10px;
+  border: 4px;
   align-items: flex-start;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin: auto;
@@ -334,11 +353,13 @@ header {
   width: 100%;
   height: 600px;
   flex-shrink: 0;
+  text-align: center;
 }
 .footer-background {
   width: auto;
   height: 312px;
   flex-shrink: 0;
+  padding-top: 100px;
 }
 .card-title {
   display: flex;
@@ -356,8 +377,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  padding-top: 120px;
   margin-bottom: 72px;
+}
+.person-list {
+  display: inline-flex;
+  justify-content: center;
+  gap: 24px;
 }
 .items {
   display: inline-flex;
@@ -374,60 +400,87 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: auto;
+  height: 348px;
+  width: 264px;
   gap: 32px;
   margin-top: 72px;
   margin-bottom: 120px;
+  background-color: var(--white, #ffffff);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.card-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  gap: 8px;
+}
 .footer-text {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   width: 264px;
-  margin-left: 156px;
-  display: flex;
-  height: auto;
-  justify-content: flex-start;
-  align-items: flex-start;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 100px;
 }
 
 .main-header-portfolio {
   display: none;
 }
 .list-portfolio {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   align-items: flex-start;
   gap: 24px;
-  margin: 96px 427px 72px;
+  margin-bottom: 72px;
+}
+.button-list-portfolio {
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  color: var(--iris, #4d5ae5);
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  background: var(--cloud, #f4f4fd);
+  margin-top: 96px;
 }
 .h2a {
   display: none;
 }
+.images-portfolio {
+  margin-top: -120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .titles {
+  padding-bottom: 48px;
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
-  margin-left: 156px;
-  margin-right: 156px;
-  justify-content: space-between;
-  padding: 24px;
-  padding-left: 0;
-  align-content: space-between;
 }
-.cards-portfolio {
-  display: flex;
-  width: 360px;
-  height: 420px;
-  font-family: sans-serif;
-  flex-basis: calc((100% - 24px) / 4);
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  flex-shrink: 0;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
-}
+
 .figure-portfolio {
+  display: block;
   justify-content: center;
   align-items: flex-start;
+  width: 360px;
+  height: 388px;
+}
+.project-names {
+  gap: 8px;
+  padding: 32px 16px;
+  border-top: 0;
+  border-left: 1px solid var(--cornflower, #e7e9fc);
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  border-right: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
 }
