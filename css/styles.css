@@ -4,6 +4,11 @@
   --whitecolor: #ffffff;
   --secondarycolor: #4d5ae5;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 html {
   overflow: auto;
   box-sizing: border-box;
@@ -225,7 +230,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .button-list:hover,
 .button-list:focus,
@@ -239,7 +244,7 @@ header {
 }
 .card-title-portfolio {
   color: var(--navyblue, #2e2f42);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -471,6 +476,16 @@ header {
   padding-bottom: 48px;
   display: flex;
   gap: 24px;
+}
+.cards-portfolio {
+  display: flex;
+  width: 360px;
+  height: 420px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
 }
 
 .figure-portfolio {
