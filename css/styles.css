@@ -418,6 +418,11 @@ header {
   text-align: center;
   gap: 8px;
 }
+.card-content {
+  padding-bottom: 32px;
+  padding-top: 32px;
+  text-align: center;
+}
 .footer-text {
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
