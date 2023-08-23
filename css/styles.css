@@ -49,7 +49,7 @@ header {
   flex-shrink: 0;
   border-bottom: 1px solid #e7e9fc;
 }
-.page-header {
+.container-page-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
