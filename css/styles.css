@@ -48,10 +48,18 @@ header {
   flex-shrink: 0;
   border-bottom: 1px solid #e7e9fc;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .container-page-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .nav .web-logo {
   color: var(--iris, #4d5ae5);
@@ -291,7 +299,6 @@ header {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: nowrap;
-  margin-left: 76px;
   margin-right: 332px;
 }
 .nav-contact {
@@ -473,10 +480,9 @@ header {
   padding-bottom: 48px;
   row-gap: 24px;
   column-gap: 48px;
-  padding-top: 72px;
 }
-.titles:first-child {
-  width: calc((100% - 48px) / 3);
+.titles > li {
+  flex-basis: calc((100% - 48px) / 3);
 }
 .cards-portfolio {
   display: flex;
@@ -492,10 +498,6 @@ header {
 
 .figure-portfolio {
   display: block;
-  justify-content: center;
-  align-items: flex-start;
-  width: 360px;
-  height: 388px;
 }
 .project-names {
   gap: 8px;
