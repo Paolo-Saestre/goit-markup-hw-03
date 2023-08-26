@@ -478,8 +478,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 48px;
-  row-gap: 24px;
-  column-gap: 48px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 .titles > li {
   flex-basis: calc((100% - 48px) / 3);
